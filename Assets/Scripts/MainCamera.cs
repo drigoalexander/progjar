@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-// A test class, not in use
-
 public class MainCamera : MonoBehaviour
 {
     private float speed = 0.1f;
