@@ -7,6 +7,9 @@ TagManager:
   - car
   - road
   - HUD
+  - checkpoint
+  - circuit
+  - skidmarks
   layers:
   - Default
   - TransparentFX
