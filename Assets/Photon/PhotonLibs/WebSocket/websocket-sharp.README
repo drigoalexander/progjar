@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 websocket-sharp.dll built from https://github.com/sta/websocket-sharp.git, commit 869dfb09778de51081b0ae64bd2c3217cffe0699 on Aug 24, 2016.
 
+=======
+websocket-sharp.dll built from https://github.com/sta/websocket-sharp.git, commit 869dfb09778de51081b0ae64bd2c3217cffe0699 on Aug 24, 2016.
+
+>>>>>>> 5d07cb3b5bed478ecb98548a5c7f2f4cda7ef84e
 websocket-sharp is provided under The MIT License as mentioned here: https://github.com/sta/websocket-sharp#license

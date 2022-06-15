@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <linker>
   <assembly fullname="mscorlib">
     <namespace fullname="System.Security.Cryptography" preserve="all"/>
@@ -8,4 +9,16 @@
   <assembly fullname="System">
     <namespace fullname="System.ComponentModel" preserve="all"/>
   </assembly>
+=======
+<linker>
+  <assembly fullname="mscorlib">
+    <namespace fullname="System.Security.Cryptography" preserve="all"/>
+  </assembly>
+  <assembly fullname="System">
+    <namespace fullname="System.Net.Configuration" preserve="all"/>
+  </assembly>
+  <assembly fullname="System">
+    <namespace fullname="System.ComponentModel" preserve="all"/>
+  </assembly>
+>>>>>>> 5d07cb3b5bed478ecb98548a5c7f2f4cda7ef84e
 </linker>

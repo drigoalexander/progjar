@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 fileFormatVersion: 2
 guid: 612a7d8fb44bb994d90d9c0fa1408703
 labels:
@@ -5,3 +6,12 @@ labels:
 - PUN
 - Photon
 - Networking
+=======
+fileFormatVersion: 2
+guid: 612a7d8fb44bb994d90d9c0fa1408703
+labels:
+- ExitGames
+- PUN
+- Photon
+- Networking
+>>>>>>> 5d07cb3b5bed478ecb98548a5c7f2f4cda7ef84e

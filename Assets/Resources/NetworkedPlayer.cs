@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using Photon.Pun;
 using UnityEngine;
 using UnityEngine.UI;
@@ -31,3 +32,21 @@ public class NetworkedPlayer : MonoBehaviourPunCallbacks {
         }
     }
 }
+=======
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+using Photon.Realtime;
+using Photon.Pun;
+
+public class NetworkedPlayer : MonoBehaviourPunCallbacks
+{
+    public static GameObject LocalPlayerInstance;
+    public GameObject playerNamePrefab;
+    public Rigidbody rigidBody;
+    public Renderer vehicleMesh;
+
+}
+>>>>>>> 5d07cb3b5bed478ecb98548a5c7f2f4cda7ef84e

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿{
     "name": "PhotonChat",
     "references": [
@@ -7,4 +8,15 @@
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false
+=======
+﻿{
+    "name": "PhotonChat",
+    "references": [
+        "PhotonWebSocket"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+>>>>>>> 5d07cb3b5bed478ecb98548a5c7f2f4cda7ef84e
 }
