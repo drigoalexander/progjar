@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ﻿using UnityEngine;
 
 public class Ghost : MonoBehaviour {
@@ -11,35 +10,12 @@ public class Ghost : MonoBehaviour {
         rends = this.gameObject.GetComponentsInChildren<Renderer>();
         foreach (Renderer r in rends) {
             r.material.SetFloat("_Mode", 3.0f);
-=======
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class Ghost : MonoBehaviour
-{
-    Renderer[] rends;
-    float alpha = 1;
-    float flashSpeed = 2;
-
-    void Awake()
-    {
-        rends = this.gameObject.GetComponentsInChildren<Renderer>();
-    }
-
-    void OnEnable()
-    {
-        foreach (Renderer r in rends)
-        {
-            r.material.SetFloat("_Mode", 3.0f);
->>>>>>> 5d07cb3b5bed478ecb98548a5c7f2f4cda7ef84e
             r.material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.SrcAlpha);
             r.material.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
             r.material.SetInt("_ZWrite", 0);
             r.material.DisableKeyword("_ALPHATEST_ON");
             r.material.EnableKeyword("_ALPHABLEND_ON");
             r.material.DisableKeyword("_ALPHAPREMULTIPLY_ON");
-<<<<<<< HEAD
             r.material.renderQueue = 3000;
             r.material.color = new Color(1, 1, 1, alpha);
         }
@@ -49,25 +25,12 @@ public class Ghost : MonoBehaviour
         if (rends == null) return;
         foreach (Renderer r in rends) {
             r.material.SetFloat("_Mode", 0.0f);
-=======
-            r.material.renderQueue = 3000;
-            r.material.color = new Color(1, 1, 1, alpha);
-        }
-    }
-
-    void OnDisable()
-    {
-        foreach (Renderer r in rends)
-        {
-            r.material.SetFloat("_Mode", 0.0f);
->>>>>>> 5d07cb3b5bed478ecb98548a5c7f2f4cda7ef84e
             r.material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.One);
             r.material.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.Zero);
             r.material.SetInt("_ZWrite", 1);
             r.material.DisableKeyword("_ALPHATEST_ON");
             r.material.DisableKeyword("_ALPHABLEND_ON");
             r.material.DisableKeyword("_ALPHAPREMULTIPLY_ON");
-<<<<<<< HEAD
             r.material.renderQueue = -1;
             r.material.color = new Color(1, 1, 1, 1);
         }
@@ -81,19 +44,3 @@ public class Ghost : MonoBehaviour
         }
     }
 }
-=======
-            r.material.renderQueue = -1;
-            r.material.color = new Color(1, 1, 1, 1);
-        }
-    }
-
-    void Update()
-    {
-        alpha = 0.3f + Mathf.PingPong(Time.time * flashSpeed, 0.7f);
-        foreach (Renderer r in rends)
-        {
-            r.material.color = new Color(1, 1, 1, alpha);
-        }
-    }
-}
->>>>>>> 5d07cb3b5bed478ecb98548a5c7f2f4cda7ef84e

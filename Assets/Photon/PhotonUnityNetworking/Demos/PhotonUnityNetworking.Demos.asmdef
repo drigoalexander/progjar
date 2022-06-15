@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
     "name": "PhotonUnityNetworking.Demos",
     "references": [
@@ -8,15 +7,4 @@
     ],
     "includePlatforms": [],
     "excludePlatforms": []
-=======
-{
-    "name": "PhotonUnityNetworking.Demos",
-    "references": [
-        "PhotonRealtime",
-        "PhotonUnityNetworking",
-        "PhotonUnityNetworking.Utilities"
-    ],
-    "includePlatforms": [],
-    "excludePlatforms": []
->>>>>>> 5d07cb3b5bed478ecb98548a5c7f2f4cda7ef84e
 }

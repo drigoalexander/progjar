@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1011 &101100000
@@ -8,14 +7,3 @@ AvatarBodyMask:
   m_PrefabInternal: {fileID: 0}
   m_Name: RightArm
   m_Mask: 00000000000000000000000000000000000000000000000001000000000000000100000000000000000000000000000001000000
-=======
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!1011 &101100000
-AvatarBodyMask:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: RightArm
-  m_Mask: 00000000000000000000000000000000000000000000000001000000000000000100000000000000000000000000000001000000
->>>>>>> 5d07cb3b5bed478ecb98548a5c7f2f4cda7ef84e

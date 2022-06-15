@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 fileFormatVersion: 2
 guid: d06466c03d263624786afa88b52928b6
 labels:
@@ -11,17 +10,3 @@ MonoImporter:
   defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
-=======
-fileFormatVersion: 2
-guid: d06466c03d263624786afa88b52928b6
-labels:
-- ExitGames
-- PUN
-- Photon
-- Networking
-MonoImporter:
-  serializedVersion: 2
-  defaultReferences: []
-  executionOrder: 0
-  icon: {instanceID: 0}
->>>>>>> 5d07cb3b5bed478ecb98548a5c7f2f4cda7ef84e
